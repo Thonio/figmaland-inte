@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../public/font/Graphik-Regular-Trial.woff2') format('woff2'), url('../public/font/Graphik-Regular-Trial.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-bold';
+  src: url('../public/font/Graphik-Bold-Trial.woff2') format('woff2'), url('../public/font/Graphik-Bold-Trial.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-black';
+  src: url('../public/font/Graphik-Regular-Trial.woff2') format('woff2'), url('../public/font/Graphik-Regular-Trial.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-face: 'Graphik-semibold';
+  src: url('../public/font/Graphik-Semibold-Trial.woff2') format('woff2'), url('../public/font/Graphik-Semibold-Trial.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik-super';
+  src: url('../public/font/Graphik-Super-Trial.woff2') format('woff2'), url('../public/font/Graphik-Super-Trial.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-thin';
+  src: url('../public/font/Graphik-Thin-Trial.woff2') format('woff2'), url('../public/font/Graphik-Thin-Trial.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-medium';
+  src: url('../public/font/Graphik-Medium-Trial.woff2') format('woff2'), url('../public/font/Graphik-Medium-Trial.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-face: 'Graphik-light';
+  src: url('../public/font/Graphik-Light-Trial.woff2') format('woff2'), url('../public/font/Graphik-Light-Trial.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Graphik'
+}
