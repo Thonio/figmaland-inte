@@ -42,12 +42,13 @@ const socialLinks = [
 
 <template>
   <div class="relative">
-    <div class="absolute w-full">
+    <div class="z-[999] absolute w-full">
       <div class="container w-full mx-auto">
         <div class="grid grid-cols-3 mx-auto py-[39px] px-[40px] max-w-[1210px]">
           <div class="flex items-center z-1">
             <ul class="flex gap-[21px] item-center">
-              <li v-for="link in links" class="p-[10px]"><a :href="link.link" class="text-white">{{ link.name }}</a>
+              <li v-for="link in links" class="p-[10px]"><a :href="link.link" class="text-white text-[15px]">{{
+                link.name }}</a>
               </li>
             </ul>
           </div>
