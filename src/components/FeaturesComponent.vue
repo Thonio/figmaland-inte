@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import TitleComponent from './TitleComponent.vue';
 
 const featureList = [
   {
@@ -30,7 +31,7 @@ const playVideo = () => {
 <template>
   <div class="container mx-auto py-[115px]">
     <div class="text-center mb-[90px]">
-      <h2 class="text-[48px] mb-[17px]">Features</h2>
+      <TitleComponent>Features</TitleComponent>
       <p class="text-[28px]">Most calendars are designed for teams. <br />Slate is designed for freelancers</p>
     </div>
     <div class="grid grid-cols-3 max-w-[870px] mx-auto gap-[52px]">
@@ -41,7 +42,7 @@ const playVideo = () => {
       </div>
     </div>
   </div>
-  <div class="max-w-[1178px] mx-auto mb-[52px]">
+  <div class="max-w-[1178px] min-h-[71vh] mx-auto mb-[52px]">
     <div v-if="!videoPlayed" class="video-thumbnail" @click="playVideo">
       <img src="../../public/video_screen.jpg" alt="#" class="thmbnail-image" />
       <div class="play-button"></div>
