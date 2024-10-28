@@ -41,7 +41,7 @@ const socialLinks = [
 </script>
 
 <template>
-  <div class="relative">
+  <div class="hidden relative md:block">
     <div class="z-[999] absolute w-full">
       <div class="container w-full mx-auto">
         <div class="grid grid-cols-3 mx-auto py-[39px] px-[40px] max-w-[1210px]">

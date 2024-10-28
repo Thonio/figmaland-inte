@@ -39,11 +39,11 @@ const listPartners = [
 
 <template>
   <div class="container mx-auto mt-[120px] mb-[80px]">
-    <div class="text-center mb-[80px]">
+    <div class="text-center mx-[20px] mb-[80px]">
       <TitleComponent>Partners</TitleComponent>
       <p class="text-[28px]">Most calendars are designed for teams. <br /> Slate is designed for freelancers</p>
     </div>
-    <div class="flex max-w-[1078px] mx-auto mb-[80px] flex-wrap">
+    <div class="flex max-w-[1078px] justify-center mx-auto mb-[80px] flex-wrap">
       <div v-for="partner in listPartners" class="text-center mx-[40px] my-[25px]">
         <p class="text-[15px] mb-[15px]">{{ partner.name }}</p>
         <img :src="partner.url" alt="#" />
