@@ -6,6 +6,9 @@ import OrganizeComponent from './components/OrganizeComponent.vue';
 import NewsletterComponent from './components/NewsletterComponent.vue';
 import PartnersComponent from './components/PartnersComponent.vue';
 import TestimonialComponent from './components/TestimonialComponent.vue';
+import PricingComponent from './components/PricingComponent.vue';
+import ContactComponent from './components/ContactComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 </script>
 
 <template>
@@ -16,6 +19,9 @@ import TestimonialComponent from './components/TestimonialComponent.vue';
   <NewsletterComponent />
   <PartnersComponent />
   <TestimonialComponent />
+  <PricingComponent />
+  <ContactComponent />
+  <FooterComponent />
 </template>
 
 <style scoped></style>
