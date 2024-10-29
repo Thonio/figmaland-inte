@@ -12,7 +12,7 @@ import TitleComponent from './TitleComponent.vue';
           freelancers
         </p>
       </div>
-      <div class="flex flex-col md:flex-row gap-[50px] justify-center items-center">
+      <div class="flex flex-col lg:flex-row gap-[50px] justify-center items-center">
         <CardComponent>
           <template #title>Free</template>
           <template #desicription>Organize across all <br /> apps by hand</template>

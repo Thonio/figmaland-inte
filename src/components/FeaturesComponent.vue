@@ -34,21 +34,21 @@ const playVideo = () => {
       <TitleComponent>Features</TitleComponent>
       <p class="text-[28px]">Most calendars are designed for teams. <br />Slate is designed for freelancers</p>
     </div>
-    <div class="flex flex-col mb-[52px] md:mb-0">
-      <div class="md:order-2">
+    <div class="flex flex-col mb-[52px] lg:mb-0">
+      <div class="lg:order-2">
         <div v-if="videoPlayed" class="video-container mb-[70px]">
           <iframe width="560" height="315" :src="urlVideo" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <div v-if="!videoPlayed" class="max-w-[1178px] pb-[70.25%] md:pb-[45%] mx-auto">
+        <div v-if="!videoPlayed" class="max-w-[1178px] pb-[70.25%] lg:pb-[45%] mx-auto">
           <div class="video-thumbnail" @click="playVideo">
             <img src="../../public/video_screen.jpg" alt="#" class="thmbnail-image" />
-            <div class="play-button size-[61px] md:size-[187px]"></div>
+            <div class="play-button size-[61px] lg:size-[187px]"></div>
           </div>
         </div>
       </div>
-      <div class="flex flex-col md:order-1 md:grid md:grid-cols-3 max-w-[870px] mx-auto gap-[52px]">
+      <div class="flex flex-col lg:order-1 lg:grid lg:grid-cols-3 max-w-[870px] mx-auto gap-[52px]">
         <div v-for="feature in featureList" class="text-center w-[252px]">
           <img :src="feature.img" class="mx-auto mb-[10px]" />
           <h3 class="font-['Graphik-bold'] text-[20px] mb-[20px]">{{ feature.title }}</h3>

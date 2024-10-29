@@ -50,8 +50,8 @@ const show = ref(false)
   <div class="relative md:block">
     <div class="z-[999] absolute w-full">
       <div class="container w-full mx-auto">
-        <div class="grid grid-cols-2 md:grid-cols-3 mx-auto p-[17px] md:p-[40px] max-w-[1210px]">
-          <div class="hidden md:flex items-center z-10">
+        <div class="grid grid-cols-2 lg:grid-cols-3 mx-auto p-[17px] md:p-[40px] max-w-[1210px]">
+          <div class="hidden lg:flex items-center z-10">
             <ul class="flex gap-[21px] item-center">
               <li v-for="link in links" class="p-[10px]"><a :href="link.link" class="text-white text-[15px]">{{
                 link.name }}</a>
@@ -61,10 +61,10 @@ const show = ref(false)
           <div class="flex justify-center items-center">
             <img src="../../public/logo.svg" alt="logo" />
           </div>
-          <div class="flex justify-end items-center md:hidden">
+          <div class="flex justify-end items-center lg:hidden">
             <button @click="show = !show"><img src="../../public/burger.svg" alt="#" /></button>
           </div>
-          <div class="hidden md:flex justify-end items-center">
+          <div class="hidden lg:flex justify-end items-center">
             <ul class="flex gap-[24px]">
               <li v-for="social in socialLinks"><a class="flex justify-center w-[41px] h-[41px]" :href="social.link"
                   :title="social.title"><img class="w-[33px]" :src="social.img" alt="#" /></a></li>

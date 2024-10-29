@@ -84,7 +84,7 @@ const socialLinks = [
 ]
 </script>
 <template>
-  <footer class="bg-[#252B42] text-white text-center md:text-left">
+  <footer class="bg-[#252B42] px-[20px] text-white text-center md:text-left">
     <div class="max-w-[991px] mx-auto py-[150px] justify-between flex flex-col md:flex-row">
       <div class="md:grid grid-cols-3 w-[100%] md:w-[582px] gap-[20px]">
         <div class="mb-[73px]">
